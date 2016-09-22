@@ -1,0 +1,53 @@
+    1  git config --global user.name "Teemu Karjalainen"
+    2  git config --global user.email "t5kate01@students.oamk.fi"
+    3  pwd
+    4  mkdir gitrepo
+    5  pwd mkdir gitrepo cd gitrepo/
+    6  pwd C:/Users/Teemu/Documents/GIT
+    7  mkdir gitrepo
+    8  mkdir gitrepo
+    9  cd gitrepo/
+   10  ssh-keygen -t rsa -b 4096
+   11  eval "$(ssh-agent -s)"
+   12  ssh-add ~/.ssh/id_rsa
+   13  clip < ~/.ssh/id_rsa.pub
+   14  cd /c/Users/Teemu/.ssh/id_rsa
+   15  cd /c/Users/Teemu/gitrepo
+   16  ls
+   17  git init
+   18  ls
+   19  git add .
+   20  git status
+   21  git commit -m "Added a new file"
+   22  git remote add origin https://github.com/Sushichef00/Ohjelmistotuotanto.git
+   23  git remote -v
+   24  git push origin master
+   25  git log
+   26  git branch
+   27  git add .
+   28  git commit -m "Added line 4"
+   29  git push origin master
+   30  git checkout c29049a36798a821595a0f9382f85aeb709acf87
+   31  git checkout 39fa671d88710473ca266f0ae1cfb60e1bb0556c
+   32  git checkout master
+   33  git branch b1
+   34  git branch
+   35  git add .
+   36  git commit -m "Added line 5"
+   37  git checkout b1
+   38  git branch
+   39  git add .
+   40  git commit -m "Added line 0"
+   41  git checkout master
+   42  git checkout b1
+   43  git checkout master
+   44  git branch
+   45  git merge b1 -m "Merged"
+   46  git branch
+   47  git chechkout master
+   48  git checkout master
+   49  git checkout b1
+   50  git push origin master
+   51  git branch
+   52  git checkout master
+   53  history > mylog.log
